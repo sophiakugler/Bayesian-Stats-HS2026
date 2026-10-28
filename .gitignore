@@ -58,3 +58,7 @@ ENV/
 
 # Project-specific
 course_cache/
+
+# Private lecturer notes and answer keys
+/LECTURES/lecturer_notes/
+/output/pdf/week6_lecturer_notes.pdf
