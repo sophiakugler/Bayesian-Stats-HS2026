@@ -43,8 +43,21 @@ Below are a list of common resources. I have bolded the ones that I think are go
 The course outline below is from the previous version of this course taught by Tilman Troester.
 We may change things as we go, but this should serve as a roadmap for people for what to expect. 
 
+
+
+week11_gaussian_processes.ipynb
+week11_gps
+
+
+
+
+
+
+week7_model_checking.pdf
+
+
 ## 1. Intro
-Notebook: `lectures/intro.ipynb`
+Notebook: `lectures/week1_intro.ipynb`
 - JupyterLab
 - Debugging
 - Version control
@@ -54,7 +67,7 @@ Notebook: `lectures/intro.ipynb`
 - Monte Carlo estimate of pi
 
 ## 2. Probabilities
-Notebook: `lectures/probabilities.ipynb`
+Notebook: `lectures/week2_probabilities.ipynb`
 - Different definitions of probability
 - Set notation
 - Outcomes, events
@@ -66,7 +79,7 @@ Notebook: `lectures/probabilities.ipynb`
 - Monty Hall problem
 
 ## 3. Random variables and probability distributions
-Notebook: `lectures/random_variables_and_probability_distributions.ipynb`
+Notebook: `lectures/week3_random_variables_and_probability_distributions.ipynb`
 - Random variables
 - Probability distributions: discrete and continuous
 - PDF and CDF
@@ -92,7 +105,7 @@ Notebook: `lectures/random_variables_and_probability_distributions.ipynb`
 - Distribution of chi-squared distribution
 
 ## 4. Introduction to Bayesian statistics
-Notebook: `lectures/intro_to_bayes.ipynb`
+Notebook: `lectures/week4_intro_to_bayes.ipynb`
 - Bayes theorem
 - Likelihood, prior, posterior
 - Updating priors
@@ -107,7 +120,7 @@ Notebook: `lectures/intro_to_bayes.ipynb`
 - Misspecified likelihood
 
 ## 5. Sampling from distributions 1
-Notebook: `lectures/sampling.ipynb`
+Notebook: `lectures/week5_sampling.ipynb`
 - Monte Carlo estimates of integrals
 - Rejection sampling
 - Markov chain Monte Carlo
@@ -118,7 +131,7 @@ Notebook: `lectures/sampling.ipynb`
 - Show that Metropolis-Hastings satisfies detailed balance
 
 ## 6. Sampling from distributions 2
-Notebook: `lectures/sampling_2.ipynb`
+Notebook: `lectures/week6_sampling_2.ipynb`
 - Burn-in, convergence, and auto-correlation
 - Slice sampling
 - Nested sampling
@@ -129,7 +142,7 @@ Notebook: `lectures/sampling_2.ipynb`
 - Use dynesty to compare models
 
 ## 7. Model checking
-Notebook: `lectures/model_checking.ipynb`
+Notebook: `lectures/week7_model_checking.ipynb`
 - Chi-square goodness-of-fit
 - Posterior predictive checks
 - Model comparison:
@@ -140,8 +153,8 @@ Notebook: `lectures/model_checking.ipynb`
 - Implement chi-square and posterior predictive checks
 - Use DIC, WAIC, and Bayes ratio for model comparison
 
-## 8. Estimators and data exploration
-Notebook: `lectures/estimators_and_data_exploration.ipynb`
+## 8. Model Comparison and Linear Regression 
+Notebook: `lectures/week_8_model_comparison_and_regression.pdf`
 - Statistics and estimators
 - Estimator bias and variance
 - Statistics and their sampling distributions
@@ -159,7 +172,7 @@ Notebook: `lectures/estimators_and_data_exploration.ipynb`
 - Check bootrap on case where exact sampling distribution is known
 
 ## 9. Fisher, Hamilton Monte Carlo, and JAX
-Notebook: `lectures/fisher_hmc_and_jax.ipynb`
+Notebook: `lectures/week9_fisher_hmc_jax_numpyro.ipynb`
 - Fisher information matrix
 - Cramer-Rao bound
 - Jeffreys prior
@@ -185,14 +198,13 @@ Notebook: `lectures/simulation_based_inference.ipynb`
 - Implement neural density estimation 
 
 ## 11. Gaussian processes & probabilistic programming
-Notebook: `lectures/gaussian_processes.ipynb`
+Notebook: `lectures/week11_gaussian_processes.html`
 - Gaussian processes
 - Kernel functions & Gaussian processes regression with tinygp
-- Probabilistic programming with numpyro
 - Sampling GP parameters
 
 ## 12. Gaussian random fields & recap
-Notebook: `lectures/gaussian_processes.ipynb`
+Notebook: ``
 - Gaussian random fields
 - Power spectrum
 Notebook: `lectures/recap.ipynb`
