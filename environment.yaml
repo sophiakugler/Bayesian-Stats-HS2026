@@ -20,6 +20,8 @@ dependencies:
   - corner
   - dynesty
   - getdist
+  - ipywidgets
+  - pytorch
   - pip
   - pip:
     - tensorflow-probability[jax]
